@@ -1,0 +1,3 @@
+<footer>
+    Fine
+</footer>
