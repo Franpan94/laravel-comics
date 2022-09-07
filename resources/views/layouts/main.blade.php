@@ -9,12 +9,22 @@
 </head>
 <body>
 
-    @include('includes.header')
+    <header>
+      @include('includes.header')
+    </header>
+
+    <div>
+      @include('includes.jumbotron')
+    </div>
+
+    @include('includes.jumbotronmain')
 
     <main>
        @yield('main-content')
     </main>
 
-    @include('includes.footer')
+    <footer>
+       @include('includes.footer')
+    </footer>
 </body>
 </html>

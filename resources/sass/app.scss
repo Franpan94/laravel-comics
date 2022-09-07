@@ -2,118 +2,156 @@
 
 @import 'partials/variables';
 
-header{
+header {
     .bg {
         background-color: $bgcolor;
         height: 200px;
-      }
-      
-      .d-flex {
+    }
+
+    .d-flex {
         display: flex;
-      }
-      
-      li {
+    }
+
+    li {
         padding: 20px;
         list-style: none;
         text-transform: uppercase;
         font-weight: bold;
-      }
-      
-      a{
+    }
+
+    a {
         text-decoration: none;
-        color: black;
-      
+        color: $link;
+
         &:hover {
-          color: $linkhovercolor;
+            color: $linkhovercolor;
         }
-      }
-      
-      .justify-around {
+    }
+
+    .justify-around {
         display: flex;
         justify-content: space-around;
-      }
-      
-      .width {
+    }
+
+    .width {
         width: 80px;
         height: 80px;
         padding-top: 20px;
-      }
-      
-      .pb-2 {
+    }
+
+    .pb-2 {
         padding-bottom: 20px;
-      }
+    }
+
+    .bg-jumbotron {
+        background-image: url("/assets/img/jumbotron.jpg");
+        height: 40vh;
+        background-size: cover;
+    }
+
+    .pl-110 {
+        padding-left: 110px;
+    }
+
+    .pt-50 {
+        padding-top: 50px;
+    }
+
+    .bg-series {
+        background-color: $linkhovercolor;
+        display: inline-block;
+        padding: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $bgcolormain;
+    }
+
+    .position-relative {
+        position: relative;
+    }
+
+    .position-absolute {
+        position: absolute;
+        bottom: -20px;
+        left: 6rem;
+        z-index: 1;
+    }
 }
 
-main{
+
+    
+
+
+main {
     .bg {
-        background-image: url("../../public/assets/img/footer-bg.jpg");
+        background-image: url("/assets/img/footer-bg.jpg");
         height: 55vh;
         background-size: cover;
         background-position: center;
         color: $bgcolormain;
-      }
-      
-      li {
+    }
+
+    li {
         list-style: none;
         color: $licolor;
         padding: 3px;
-      }
-      
-      .d-flex {
+    }
+
+    .d-flex {
         display: flex;
-      }
-      
-      .bg-logo {
-        background-image: url("../../public/assets/img/dc-logo-bg.png");
+    }
+
+    .bg-logo {
+        background-image: url("/assets/img/dc-logo-bg.png");
         height: 55vh;
         background-size: cover;
         background-position: center;
         width: 500px;
-      }
-      
-      .ml-30 {
+    }
+
+    .ml-30 {
         margin-left: -35px;
-      }
-      
-      .justify-around{
-          display: flex;
-          justify-content: space-around;
-      }
+    }
+
+    .justify-around {
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
-footer{
-    .bg{
+footer {
+    .bg {
         background-color: $bgfootercolor;
         height: 100px;
-     }
-     
-     .d-flex-around{
-         display: flex;
-         justify-content: space-around;
-         align-items: center;
-     }
-     
-     .d-flex{
-         display: flex;
-         align-items: center;
-     }
-     
-     .utilities{
-         padding: 10px;
-         border: 4px solid $linkhovercolor;
-         background-color:$bgfootercolor;
-         color: $bgcolormain;
-     }
-     
-     .cursor{
-         cursor: pointer;
-     }
-     
-     .color{
-         color: $linkhovercolor;
-     }
-     
-     .p-10{
-         padding: 10px;
-     }
+    }
+
+    .d-flex-around {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .d-flex {
+        display: flex;
+        align-items: center;
+    }
+
+    .utilities {
+        padding: 10px;
+        border: 4px solid $linkhovercolor;
+        background-color: $bgfootercolor;
+        color: $bgcolormain;
+    }
+
+    .cursor {
+        cursor: pointer;
+    }
+
+    .color {
+        color: $linkhovercolor;
+    }
+
+    .p-10 {
+        padding: 10px;
+    }
 }

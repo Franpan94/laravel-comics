@@ -38,8 +38,42 @@ header .pb-2 {
   padding-bottom: 20px;
 }
 
+header .bg-jumbotron {
+  background-image: url("/assets/img/jumbotron.jpg");
+  height: 40vh;
+  background-size: cover;
+}
+
+header .pl-110 {
+  padding-left: 110px;
+}
+
+header .pt-50 {
+  padding-top: 50px;
+}
+
+header .bg-series {
+  background-color: rgb(2, 130, 249);
+  display: inline-block;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+header .position-relative {
+  position: relative;
+}
+
+header .position-absolute {
+  position: absolute;
+  bottom: -20px;
+  left: 6rem;
+  z-index: 1;
+}
+
 main .bg {
-  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-image: url("/assets/img/footer-bg.jpg");
   height: 55vh;
   background-size: cover;
   background-position: center;
@@ -57,7 +91,7 @@ main .d-flex {
 }
 
 main .bg-logo {
-  background-image: url(/images/dc-logo-bg.png?f4404ce9dc132a08a47f19e3f73f1417);
+  background-image: url("/assets/img/dc-logo-bg.png");
   height: 55vh;
   background-size: cover;
   background-position: center;
