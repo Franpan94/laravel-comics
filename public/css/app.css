@@ -107,6 +107,107 @@ main .justify-around {
   justify-content: space-around;
 }
 
+main .bg-main-card {
+  background-color: rgb(28, 28, 28);
+  height: 100vh;
+}
+
+main .d-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 6rem;
+  padding-top: 30px;
+}
+
+main .bg-series {
+  background-color: rgb(2, 130, 249);
+  display: inline-block;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+main .position-relative {
+  position: relative;
+}
+
+main .position-absolute {
+  position: absolute;
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translate(-50%, -50%);
+}
+
+main .cursor {
+  cursor: pointer;
+}
+
+main .font {
+  font-weight: bold;
+}
+
+main .d-block {
+  display: block;
+}
+
+main .width-dc {
+  color: white;
+  width: 16.6666666667%;
+  margin: auto;
+}
+
+main .widthimg {
+  height: 200px;
+}
+
+main .bg-tag {
+  background-color: rgb(2, 130, 249);
+}
+
+main .li-dc {
+  padding: 20px;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+main a {
+  text-decoration: none;
+  color: white;
+}
+
+main .justify-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+main .width-img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+
+main .vertical-align {
+  vertical-align: middle;
+}
+
+main .pb-2 {
+  padding-bottom: 20px;
+}
+
+main .padding-5 {
+  padding: 5px;
+}
+
+main .li-color {
+  color: grey;
+}
+
 footer .bg {
   background-color: rgb(48, 48, 48);
   height: 100px;
@@ -128,6 +229,12 @@ footer .utilities {
   border: 4px solid rgb(2, 130, 249);
   background-color: rgb(48, 48, 48);
   color: white;
+}
+
+footer .utilities:hover {
+  border: 4px solid rgb(255, 255, 255);
+  background-color: rgb(2, 130, 249);
+  color: rgb(48, 48, 48);
 }
 
 footer .cursor {

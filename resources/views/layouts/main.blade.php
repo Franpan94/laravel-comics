@@ -13,12 +13,6 @@
       @include('includes.header')
     </header>
 
-    <div>
-      @include('includes.jumbotron')
-    </div>
-
-    @include('includes.jumbotronmain')
-
     <main>
        @yield('main-content')
     </main>
